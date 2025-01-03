@@ -1,0 +1,30 @@
+
+.img-fluid_logo{
+    max-width: 50px;
+    height: auto;
+}
+.logo_title{
+    font-size: 28px;
+    margin-left: 15px;    
+}
+.iconcart_size{
+    font-size: 35px;
+}
+
+.translate-middle_cart {
+    transform: translate(-50%, 0) !important;
+}
+
+.active {
+    border-bottom: 2px solid #ff1212; 
+  }
+
+  .nav-item.nav-link.active {
+    /* color: #ff1212 !important; Active link color */
+    border-bottom: 4px solid #ff1212; /* Add a bottom border */
+    padding-bottom: 40px !important;   
+  }
+  
+  .nav-link.text-secondary {
+    transition: color 0.3s ease;    
+  }

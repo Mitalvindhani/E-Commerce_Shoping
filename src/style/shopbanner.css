@@ -1,0 +1,49 @@
+.banner_bg {
+    
+    background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+}
+@media only screen and (max-width: 768px) {
+   
+    .input-group button{
+        top: 60px;
+        left: 0px;
+    }
+    /* .footer_hr{
+        max-width: 300px;    
+    } */
+  }
+
+
+/* .banner_text {
+    font-weight: 700;
+    font-size: 70px;
+    font-family: 'poppins';
+    margin: 0 !important;
+    padding: 0 !important;
+} */
+
+/* .hand_img {
+    width: 50px;
+    height: 50px;
+} */
+
+.right_banner_img {
+    width: 400px;
+}
+
+.collection_btn {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 250px;
+    height: 60px;
+    border-radius: 75px;
+    margin-top: 20px;
+    background: #ff4141;
+    color: white;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+}
